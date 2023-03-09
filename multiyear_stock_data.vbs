@@ -64,7 +64,7 @@ LastRow = ws.Range("A" & Rows.Count).End(xlUp).Row
             Dim yearly_close As Double
             yearly_close = ws.Cells(i, 6).Value
                                            
-            ' Check if yearly open is not ) - to prevent division by zero error
+            ' Check if yearly open is not 0 - to prevent division by zero error
             If (yearly_open <> 0) Then
                         
             ' set variable for yearly; Assign values to "yearly" and set formula
