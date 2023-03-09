@@ -1,5 +1,5 @@
 # VBA Challenge
-VBA scripting was used to analysed the generated stock market data (group by ticker symbol) for the following:
+VBA scripting was used to analyse the generated stock market data (group by ticker symbol) for the following:
 
 1. Yearly change of each stock from opening price at the beginning of a given year to the closing price at the end of that year
 2. Percentage change from the opening price at the beginning of a given year to the closing price at the end of that year
